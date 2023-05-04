@@ -4,7 +4,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 
 class RemoteServices {
-  final dioClient = Dio(BaseOptions(baseUrl: "http://localhost:8000"));
+  final dioClient = Dio(BaseOptions(baseUrl: "http://0.0.0.0:8000"));
 
   Future<BaseModel<PredictModel>> predictImage<T>(Uint8List image) async {
     var data = BaseModel<PredictModel>();
