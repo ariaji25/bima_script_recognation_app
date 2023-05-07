@@ -1,3 +1,5 @@
+import 'dart:typed_data';
+
 import 'package:bima_apps/data/model/base_model.dart';
 import 'package:bima_apps/data/model/predict_model.dart';
 import 'package:dio/dio.dart';
