@@ -16,4 +16,16 @@ class ScoreViewModel extends GetxController {
   void onInit() {
     super.onInit();
   }
+
+  @override
+  // ignore: unnecessary_overrides
+  void onReady() {
+    super.onReady();
+  }
+
+  @override
+  // ignore: unnecessary_overrides
+  void onClose() {
+    super.onClose();
+  }
 }

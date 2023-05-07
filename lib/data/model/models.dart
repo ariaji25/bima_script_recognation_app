@@ -9,3 +9,4 @@ part 'option_model.dart';
 part 'question_model.dart';
 part 'rangking_model.dart';
 part 'api_return_value.dart';
+part 'aksara_model.dart';

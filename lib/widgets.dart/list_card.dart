@@ -15,7 +15,9 @@ class ListCard extends StatelessWidget {
             Get.toNamed(Routes.MENULIS);
           } else if (index == 1) {
             Get.toNamed(Routes.QUIZ);
-          } else {}
+          } else {
+            Get.toNamed(Routes.AKSARA);
+          }
         },
         child: Stack(
           alignment: AlignmentDirectional.topEnd,

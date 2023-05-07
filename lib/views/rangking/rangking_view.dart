@@ -143,20 +143,6 @@ class RangkingView extends GetView<RangkingViewModel> {
                                                       style: r,
                                                     )
                                                   : const Text(''),
-                                      Padding(
-                                        padding: const EdgeInsets.only(
-                                            left: 20.0, top: 13.0, right: 20.0),
-                                        child: RaisedButton(
-                                          onPressed: () {},
-                                          color: Colors.deepPurple,
-                                          child: const Text(
-                                            "Challenge",
-                                            style: TextStyle(
-                                                color: Colors.white,
-                                                fontWeight: FontWeight.bold),
-                                          ),
-                                        ),
-                                      ),
                                     ],
                                   ),
                                 ],

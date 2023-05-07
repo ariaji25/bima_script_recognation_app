@@ -17,6 +17,18 @@ class RangkingViewModel extends GetxController {
     super.onInit();
   }
 
+  @override
+  // ignore: unnecessary_overrides
+  void onReady() {
+    super.onReady();
+  }
+
+  @override
+  // ignore: unnecessary_overrides
+  void onClose() {
+    super.onClose();
+  }
+
   void getHistory() async {
     try {
       isLoading.value = true;

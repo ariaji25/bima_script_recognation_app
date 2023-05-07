@@ -19,6 +19,8 @@ abstract class Routes {
   static const MULAIQUIZ = _Paths.MULAIQUIZ;
   // ignore: constant_identifier_names
   static const SCORE = _Paths.SCORE;
+  // ignore: constant_identifier_names
+  static const AKSARA = _Paths.AKSARA;
 }
 
 abstract class _Paths {
@@ -39,4 +41,6 @@ abstract class _Paths {
   static const MULAIQUIZ = '/mulai-quiz';
   // ignore: constant_identifier_names
   static const SCORE = '/score';
+  // ignore: constant_identifier_names
+  static const AKSARA = '/aksara';
 }

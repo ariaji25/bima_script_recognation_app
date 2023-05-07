@@ -38,7 +38,7 @@ class HomeNewView extends GetView {
               ),
               const SizedBox(height: 10),
               const Text(
-                'Mari ',
+                'Yuk ',
                 style: TextStyle(
                   fontSize: 40,
                   fontWeight: FontWeight.w900,
@@ -47,7 +47,7 @@ class HomeNewView extends GetView {
               ),
               const SizedBox(height: 5),
               const Text(
-                'Berkenalan Dengan Aksara Bima!',
+                'Kenalan Dengan Aksara Bima!',
                 style: TextStyle(
                   fontSize: 20,
                   color: Color(0xffa9a4a5),

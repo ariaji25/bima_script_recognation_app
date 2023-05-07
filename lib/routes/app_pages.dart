@@ -1,9 +1,11 @@
+import 'package:bima_apps/di/aksaraBinding.dart';
 import 'package:bima_apps/di/loginBinding.dart';
 import 'package:bima_apps/di/quisBinding.dart';
 import 'package:bima_apps/di/rangkingBinding.dart';
 import 'package:bima_apps/di/homeBinding.dart';
 import 'package:bima_apps/di/homeNewBinding.dart';
 import 'package:bima_apps/di/scoreBinding.dart';
+import 'package:bima_apps/views/aksara/aksara_view.dart';
 import 'package:bima_apps/views/home/homeView.dart';
 import 'package:bima_apps/views/home_new/homeNewView.dart';
 import 'package:bima_apps/views/login/loginView.dart';
@@ -60,6 +62,13 @@ class AppPages {
       name: _Paths.SCORE,
       page: () => ScoreView(),
       binding: ScoreBinding(),
+      transition: Transition.noTransition,
+      transitionDuration: Duration.zero,
+    ),
+    GetPage(
+      name: _Paths.AKSARA,
+      page: () => AksaraView(),
+      binding: AksaraBinding(),
       transition: Transition.noTransition,
       transitionDuration: Duration.zero,
     ),
